@@ -6,9 +6,9 @@ You need to have gatk and picard.jar file in the working directory to launch thi
 Beside this .bam file should be sorted and named like 'sample.bam.sorted'
 
 Usage:
-bash get_BAF.sh N chr1 ... chrN,
+bash get_BAF.sh N chr1 ... chrn,
 where N is the number of cores to use,
-chr1 ... chrN is the list of chromosomes, for which BAF would be counted
+chr1 ... chrn is the list of chromosomes, for which BAF would be counted
 
 This scripts gets two files for each chromosome:
 1. tsv file with headers and 6 columns: CONTIG, POSITION,	REF_COUNT, ALT_COUNT, REF_NUCLEOTIDE,	ALT_NUCLEOTIDE
